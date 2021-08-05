@@ -1,0 +1,39 @@
+.emoji-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 95px;
+  height: 95px;
+  border: 3px solid #ffffff30;
+  border-radius: 15px;
+  margin: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-item {
+    height: 180px;
+    width: 180px;
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .emoji-item {
+    height: 150px;
+    width: 175px;
+    margin: 15px;
+  }
+}
+
+.emoji-icon {
+  width: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-icon {
+    width: 100px;
+  }
+}
